@@ -16,7 +16,52 @@
   <li><strong>Undesampling the +1 class</strong> so that the number of +1 class and -1 class become similar</li>
   <li><strong>Oversampling the -1 class</strong> so that the number of +1 class and -1 class become similar</li></ol>
  <p>The corresponding results for three different training model is shown in the following model with the test data f1-score for both of the classes. As shown, only oversampling the data corresponding to -1  class resulted in the best model predictions. However, the f1-score is still not acceptable. Based on the corresponding data, I recommend the company to collect more dataset corresponding to the rejected credit card applications. Oversampling, the number of similar data rows increases which increase the variance of the model prediction (i.e., overfitting).</p>
+
+
+<table>
+  <tr>
+    <th>Method</th>
+    <th>f1-score for the -1 class</th>
+    <th>f1-score for the +1 class </th>
+
+  </tr>
+  <tr>
+    <td>Using the original data</td>
+    <td>Equador</td>
+    <td>20</td>
+
+ </tr>
+ <tr>
+    <td>Undersampling the -1 class</td>
+    <td>Senegal</td>
+    <td>18</td>
+
+ </tr>
  
+ <tr>
+    <td>Oversampling the +1 class</td>
+    <td>Netherlands</td>
+    <td>18</td>
+ </tr>
+ 
+ <tr>
+    <td>Equador</td>
+    <td>Senegal</td>
+    <td>48</td>
+ </tr>
+ 
+ <tr>
+    <td>Equador</td>
+    <td>Netherlands</td>
+    <td>48</td>
+
+ </tr>
+ 
+ <tr>
+    <td>Senegal</td>
+    <td>Netherlands</td>
+ </tr>
+  </tr> </table>
   
-  
+ 
  </ol></p>
