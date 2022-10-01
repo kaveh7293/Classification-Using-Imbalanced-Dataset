@@ -13,8 +13,8 @@
 <h2>Training the Model</h2>
 <p>I used a cross validation to choose between three different models with different hyperparmater values. Using the dataset without any oversampling or undersampling, the corresponding model, is prone to only predict the output class as positive. To overcome this, I used two different methods:<br>
 <ol>
-  <li>Undesampling the +1 class so that the number of +1 class and -1 class become similar</li>
-  <li>Oversampling the -1 class so that the number of +1 class and -1 class become similar</li>
+  <li><strong>Undesampling the +1 class</strong> so that the number of +1 class and -1 class become similar</li>
+  <li><strong>Oversampling the -1 class</strong> so that the number of +1 class and -1 class become similar</li>
   
   
  </ol></p>
