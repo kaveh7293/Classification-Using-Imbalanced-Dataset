@@ -11,4 +11,10 @@
 <h2>Preprocessing the Data</h2>
 <p>Fortunately the dataset does not contain any missing value, but it contains columns with a variety of data types. For example, the dataset has several categorical and integer data types. I used a column transformer in this project, because it will facilitate the use of pipe line in the last stages of the model production which is used in the web application.</p>  
 <h2>Training the Model</h2>
-<p></p>
+<p>I used a cross validation to choose between three different models with different hyperparmater values. Using the dataset without any oversampling or undersampling, the corresponding model, is prone to only predict the output class as positive. To overcome this, I used two different methods:<br>
+<ol>
+  <li>Undesampling the +1 class so that the number of +1 class and -1 class become similar</li>
+  <li>Oversampling the -1 class so that the number of +1 class and -1 class become similar</li>
+  
+  
+ </ol></p>
