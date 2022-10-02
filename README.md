@@ -27,40 +27,23 @@
   </tr>
   <tr>
     <td>Using the original data</td>
-    <td>Equador</td>
-    <td>20</td>
+    <td>0.9999</td>
+    <td>0.0001</td>
 
  </tr>
  <tr>
     <td>Undersampling the -1 class</td>
-    <td>Senegal</td>
-    <td>18</td>
+    <td>0.990</td>
+    <td>0.0877</td>
 
  </tr>
  
  <tr>
     <td>Oversampling the +1 class</td>
-    <td>Netherlands</td>
-    <td>18</td>
+    <td>0.9</td>
+    <td>0.19</td>
  </tr>
  
- <tr>
-    <td>Equador</td>
-    <td>Senegal</td>
-    <td>48</td>
- </tr>
- 
- <tr>
-    <td>Equador</td>
-    <td>Netherlands</td>
-    <td>48</td>
-
- </tr>
- 
- <tr>
-    <td>Senegal</td>
-    <td>Netherlands</td>
- </tr>
   </tr> </table>
   
  
