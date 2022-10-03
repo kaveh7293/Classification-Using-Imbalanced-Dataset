@@ -51,7 +51,8 @@
   <ul>
     <li>I considered three model candidates for classification: i)Gaussian Naive Bayese, ii) Multinomial Naive Bayese and iii) Support Vector Machine Classifier.</li>
     <li>I used a crossvalidation method to choose the appropriate model with appropriate hyperparameters.</li>
-    <li> The best model that has been chosen is 
+    <li> The best model that has been chosen is support vector classifier with hyperparameter values C=100 and gamma=1.
+
     
   </ul>
 </p>
