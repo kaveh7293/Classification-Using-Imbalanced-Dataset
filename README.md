@@ -40,8 +40,8 @@
  
  <tr>
     <td>Oversampling the +1 class</td>
-    <td>0.9</td>
-    <td>0.19</td>
+    <td>0.99</td>
+    <td>0.13</td>
  </tr>
  
   </tr> </table>
