@@ -33,8 +33,8 @@
  </tr>
  <tr>
     <td>Undersampling the -1 class</td>
-    <td>0.990</td>
-    <td>0.0877</td>
+    <td>N.A.</td>
+    <td>N.A.</td>
 
  </tr>
  
@@ -45,6 +45,14 @@
  </tr>
  
   </tr> </table>
-  
- 
+  <p>Undersampling the data was not possible using this dataset because the number of data corresponding to -1 class was very small. As such, sampling from the data set did not include all the possible categrical values for columns of data with a large number of categorical values.</p>
+<p>
+  During training step I did the following steps:
+  <ul>
+    <li>I considered three model candidates for classification: i)Gaussian Naive Bayese, ii) Multinomial Naive Bayese and iii) Support Vector Machine Classifier.</li>
+    <li>I used a crossvalidation method to choose the appropriate model with appropriate hyperparameters.</li>
+    <li> The best model that has been chosen is 
+    
+  </ul>
+</p>
  </ol></p>
